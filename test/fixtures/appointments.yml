@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  owner_id: 1
+  provider_id: 1
+  pet_id: 1
+  service_id: 1
+  status: MyString
+  time: 2017-08-13 16:20:15
+
+two:
+  owner_id: 1
+  provider_id: 1
+  pet_id: 1
+  service_id: 1
+  status: MyString
+  time: 2017-08-13 16:20:15
