@@ -1,0 +1,12 @@
+<section>  
+  <div class="row">
+    <% @appointments.each do |appointment| %>
+    <h3 class="appointment_header"><%= appointment %></h3>
+    <a href="/appointments/<%= appointment.id %>" title="View appointment">
+    </div>
+  </div>
+  <% end %>
+</div>
+</section>
+
+<a href= "/appointments/new">Book a New Appointment</a>
